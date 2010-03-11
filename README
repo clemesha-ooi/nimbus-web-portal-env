@@ -1,0 +1,20 @@
+Example environment using pip, virtualenv, and bundled packages, for the Nimbus portal webapp
+============================================================================================
+
+Try it:
+-------
+    $ cd nimbus-web-portal-env 
+    $ python bootstrap.py #create virtualenv and install all bundled packages
+    $ source nimbus-web-portal-env/bin/activate #now in the self-contained env
+
+Inspired by this article:
+    - http://thraxil.org/users/anders/posts/2009/06/12/Django-Deployment-with-virtualenv-and-pip
+
+But also includes:
+    - bundled 'virtualenv.py' (as well as bundled 'pip.py')
+    - additions to 'bootstrap.py'
+
+TODO:
+    - make sure this environment will work for all deps on the portal webapp
+    - integrate code back into nimbus src.
+
